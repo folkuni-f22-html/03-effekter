@@ -1,0 +1,26 @@
+/* Container block */
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Card block */
+.card {
+	border: 1px solid black;
+	padding: 1em;
+	margin: 1em;
+	border-radius: 0.3em;
+	box-shadow: 1em -0.3em 0.5em rgb(71, 71, 71);
+}
+.card__image {
+	max-width: 16em;
+	max-height: 20em;
+}
+.card__title {
+	font-size: 2rem;
+}
+.card__price {
+	font-size: 1.7rem;
+	color: red;
+	font-weight: bold;
+}
